@@ -189,7 +189,7 @@ class Gurutheme_Ajaxlogin_AccountController extends Mage_Customer_AccountControl
                 } else {
                     $customerForm->compactData($customerData);
                     $customer->setPassword($this->getRequest()->getPost('password'));
-                    $customer->setConfirmation($this->getRequest()->getPost('confirmation'));
+                    $customer->setPasswordConfirmation($this->getRequest()->getPost('confirmation'));
                     $customerErrors = $customer->validate();
                     if (is_array($customerErrors)) {
                         $errors = array_merge($customerErrors, $errors);
