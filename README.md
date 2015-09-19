@@ -1,4 +1,7 @@
 # lite-ajax-login
+
+__Magento 1.9 compliant__
+
 magento ajax login is a magento module of gurutheme
 
 You can found this module at http://www.magentocommerce.com/magento-connect/lite-ajax-login.html
